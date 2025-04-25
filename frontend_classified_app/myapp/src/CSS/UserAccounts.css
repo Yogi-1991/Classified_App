@@ -1,0 +1,23 @@
+
+
+.user-accounts-container {
+    width: 500px;
+    margin: 50px auto; 
+    padding: 20px;
+    border-radius: 15px;
+    border-collapse: collapse;
+    box-shadow: 0 8px 30px blue;
+}
+
+.user-accounts-container th {
+    font-size: 20px;
+}
+
+.user-accounts-container td {
+    font-size: 18px;
+}
+
+.user-accounts-container h2 {
+    margin: 15px;
+    padding: 10px;
+}

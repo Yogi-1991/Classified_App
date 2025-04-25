@@ -1,0 +1,40 @@
+
+.account-details {
+    width: 250px;
+    margin: 50px auto;
+    padding : 15px;
+    border-radius: 15px;
+    box-shadow: 0 8px 40px blue;
+}
+
+.account-details h2 {
+    font-size: 25px;
+}
+.account-details p {
+    font-size: 18px;
+}
+
+.account-details p:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue
+}
+
+.account-detail button {
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.account-details .deactivate {
+    background-color: red;
+}
+
+.account-details .activate {
+    background-color: green;
+}

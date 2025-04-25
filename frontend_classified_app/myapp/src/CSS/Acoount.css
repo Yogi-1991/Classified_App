@@ -1,0 +1,22 @@
+.account-card {
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 50px rgb(64, 0, 255);
+    background-color: #f2f5f6;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .account-card h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .account-card p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  

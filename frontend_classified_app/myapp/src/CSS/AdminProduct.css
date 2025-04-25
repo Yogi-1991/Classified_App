@@ -1,0 +1,70 @@
+.admin-products-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 40px blue;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .admin-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fafafa;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(236, 80, 80, 0.05);
+  }
+  
+  .product-table thead {
+    background-color: #0077ff;
+    color: white;
+  }
+  
+  .product-table th, .product-table td {
+    padding: 12px 16px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .product-table tr:hover {
+    background-color: #f0f7ff;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .product-link {
+    color: #0077ff;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .product-link:hover {
+    text-decoration: underline;
+  }
+  
+  .approved {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .not-approved {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+  
+  .no-products {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
